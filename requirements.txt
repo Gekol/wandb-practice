@@ -1,0 +1,22 @@
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+Brotli @ file:///Users/runner/miniforge3/conda-bld/brotli-split_1693583518054/work
+certifi==2023.7.22
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1688813409104/work
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1692311806742/work
+docker-pycreds==0.4.0
+gitdb @ file:///home/conda/feedstock_root/build_artifacts/gitdb_1669279893622/work
+GitPython @ file:///home/conda/feedstock_root/build_artifacts/gitpython_1694522931813/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+pathtools==0.1.2
+protobuf==4.23.4
+psutil @ file:///Users/runner/miniforge3/conda-bld/psutil_1681775207008/work
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+PyYAML @ file:///Users/runner/miniforge3/conda-bld/pyyaml_1692737400368/work
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1684774241324/work
+sentry-sdk @ file:///home/conda/feedstock_root/build_artifacts/sentry-sdk_1693325016829/work
+setproctitle @ file:///Users/runner/miniforge3/conda-bld/setproctitle_1666817158640/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+smmap @ file:///home/conda/feedstock_root/build_artifacts/smmap_1611376390914/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1688315532570/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1689789803562/work
+wandb @ file:///home/conda/feedstock_root/build_artifacts/wandb_1694049790329/work
