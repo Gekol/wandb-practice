@@ -4,11 +4,11 @@ jobs:
   my-first-job:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@4
       - name: hello
         run: |
           echo "Hello world"
       - name: run python script
+        uses: actions/checkout@3
         run: |
           pip install -r requirements.txt
           python ci.py
