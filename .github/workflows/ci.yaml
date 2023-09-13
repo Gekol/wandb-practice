@@ -4,11 +4,18 @@ jobs:
   my-first-job:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@2
       - name: hello
         run: |
           echo "Hello world"
-      - name: run python script
+      - name: checkout repo content
+        uses: actions/checkout@v4 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10 #install the python needed
+                            - name: Install dependencies
+          run: |
+            pip install requirements.txt
+      - name: execute py script # run file
         run: |
-          pip install -r requirements.txt
           python ci.py
