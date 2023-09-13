@@ -8,7 +8,6 @@ jobs:
         run: |
           echo "Hello world"
       - name: run python script
-        uses: actions/checkout@3
         run: |
           pip install -r requirements.txt
           python ci.py
