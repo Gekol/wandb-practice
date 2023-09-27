@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - main
-    pull-request:
-    workflow_dispatch:
+  pull-request:
+  workflow_dispatch:
 
 jobs:
   trigger-demo:
